@@ -1,13 +1,16 @@
 {
-  "name": "zayra-apis",
+  "name": "zayra-apis-website",
   "version": "1.0.0",
-  "description": "Modern API provider website - Zayra APIs",
+  "description": "Modern API provider website built with Next.js, React, and Tailwind CSS",
   "private": true,
+  "author": "Zayra APIs",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -21,6 +24,12 @@
     "postcss": "^8.4.31",
     "autoprefixer": "^10.4.16",
     "@types/react": "^18.2.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   }
 }
